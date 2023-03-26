@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bulletin, bulletin tunisienne, بطاقة نتائج مدرسية">
+    <title>bultein</title>
+    <link rel="icon" href="noticeboard_48px.png" />
+    <link rel="stylesheet" href="bulletin.css">
+</head>
+<body>
+    <table class="sp1" border="2">
+        <tr>
+            <th class="size">الحاصل</th>
+            <th class="size">معدل</th>
+            <th class="size">ف.تأليفي</th>
+            <th class="size">ف.م.2</th>
+            <th class="size">ف.م.1</th>
+            <th class="size">الشفاهي</th>
+            <th class="size">الضارب</th>
+            <th class="size">المواد</th>
+        </tr>
+        <tr>
+            <th class="size om1"></th>
+            <th class="size mo1"></th>
+            <th><input class="size val" type="text" id="ft1"></th>
+            <th><input class="size" type="text" id="mf1"></th>
+            <th><input class="size" type="text" id="fm1"></th>
+            <th><input class="size" type="text" id="ch1"></th>
+            <th> <select name="cdm" id="fois1" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5">01.5</option>
+                <option value="2" selected>02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th class="size">عربية</th>
+        </tr>
+        <tr>
+            <th class="size om2"></th>
+            <th class="size mo2"></th>
+            <th><input class="size" type="text" id="ft2"></th>
+            <th><input class="size" type="text" id="mf2"></th>
+            <th><input class="size" type="text" id="fm2"></th>
+            <th><input class="size" type="text" id="ch2"></th>
+            <th> <select name="cdm" id="fois2" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4" selected>04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE2" placeholder="رياضيات"></th>
+        </tr>
+        <tr>
+            <th class="size om3"></th>
+            <th class="size mo3"></th>
+            <th><input class="size" type="text" id="ft3"></th>
+            <th><input class="size" type="text" id="mf3"></th>
+            <th><input class="size" type="text" id="fm3"></th>
+            <th><input class="size" type="text" id="ch3"></th>
+            <th> <select name="cdm" id="fois3" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4" selected>04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE3" placeholder="ع.فيزيائية"></th>
+        </tr>
+        <tr>
+            <th class="size om4"></th>
+            <th class="size mo4"></th>
+            <th><input class="size" type="text" id="ft4"></th>
+            <th><input class="size" type="text" id="mf4"></th>
+            <th><input class="size" type="text" id="fm4"></th>
+            <th><input class="size" type="text" id="ch4"></th>
+            <th> <select name="cdm" id="fois4" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5">01.5</option>
+                <option value="2" selected>02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE4" placeholder="فرنسية"></th>
+        </tr>
+        <tr>
+            <th class="size om5"></th>
+            <th class="size mo5"></th>
+            <th><input class="size" type="text" id="ft5"></th>
+            <th><input class="size" type="text" id="mf5"></th>
+            <th><input class="size" type="text" id="fm5"></th>
+            <th><input class="size" type="text" id="ch5"></th>
+            <th> <select name="cdm" id="fois5" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5">01.5</option>
+                <option value="2" selected>02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE5" placeholder="إنجليزية"></th>
+        </tr>
+        <tr>
+            <th class="size om6"></th>
+            <th class="size mo6"></th>
+            <th><input class="size" type="text" id="ft6"></th>
+            <th><input class="size" type="text" id="mf6"></th>
+            <th><input class="size" type="text" id="fm6"></th>
+            <th><input class="size" type="text" id="ch6"></th>
+            <th> <select name="cdm" id="fois6" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5" selected>01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE6" placeholder="ع.الحياة و الأرض"></th>
+        </tr>
+        <tr>
+            <th class="size om7"></th>
+            <th class="size mo7"></th>
+            <th><input class="size" type="text" id="ft7"></th>
+            <th><input class="size" type="text" id="mf7"></th>
+            <th><input class="size" type="text" id="fm7"></th>
+            <th><input class="size" type="text" id="ch7"></th>
+            <th> <select name="cdm" id="fois7" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1" selected>01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE7" placeholder="إعلامية"></th>
+        </tr>
+        <tr>
+            <th class="size om8"></th>
+            <th class="size mo8"></th>
+            <th><input class="size" type="text" id="ft8"></th>
+            <th><input class="size" type="text" id="mf8"></th>
+            <th><input class="size" type="text" id="fm8"></th>
+            <th><input class="size" type="text" id="ch8"></th>
+            <th> <select name="cdm" id="fois8" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1" selected>01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder="تاريخ"></th>
+        </tr>
+        <tr>
+            <th class="size om9"></th>
+            <th class="size mo9"></th>
+            <th><input class="size" type="text" id="ft9"></th>
+            <th><input class="size" type="text" id="mf9"></th>
+            <th><input class="size" type="text" id="fm9"></th>
+            <th><input class="size" type="text" id="ch9"></th>
+            <th> <select name="cdm" id="fois9" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1" selected>01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder="جغرافيا"></th>
+        </tr>
+        <tr>
+            <th class="size om10"></th>
+            <th class="size mo10"></th>
+            <th><input class="size" type="text" id="ft10"></th>
+            <th><input class="size" type="text" id="mf10"></th>
+            <th><input class="size" type="text" id="fm10"></th>
+            <th><input class="size" type="text" id="ch10"></th>
+            <th> <select name="cdm" id="fois10" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1" selected>01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder="فلسفة"></th>
+        </tr>
+        <tr>
+            <th class="size om11"></th>
+            <th class="size mo11"></th>
+            <th><input class="size" type="text" id="ft11"></th>
+            <th><input class="size" type="text" id="mf11"></th>
+            <th><input class="size" type="text" id="fm11"></th>
+            <th><input class="size" type="text" id="ch11"></th>
+            <th> <select name="cdm" id="fois11" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1" selected>01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder="تفكير إسلامي"></th>
+        </tr>
+        <tr>
+            <th class="size om12"></th>
+            <th class="size mo12"></th>
+            <th><input class="size" type="text" id="ft12"></th>
+            <th><input class="size" type="text" id="mf12"></th>
+            <th><input class="size" type="text" id="fm12"></th>
+            <th><input class="size" type="text" id="ch12"></th>
+            <th> <select name="cdm" id="fois12" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1" selected>01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder="إسبانية"></th>
+        </tr>
+        <tr>
+            <th class="size om13"></th>
+            <th class="size mo13"></th>
+            <th><input class="size" type="text" id="ft13"></th>
+            <th><input class="size" type="text" id="mf13"></th>
+            <th><input class="size" type="text" id="fm13"></th>
+            <th><input class="size" type="text" id="ch13"></th>
+            <th> <select name="cdm" id="fois13" class="size">
+                <option value=""></option>
+                <option value="0.5">0.5</option>
+                <option value="1" selected>01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder="تر. بدنية"></th>
+        </tr>
+        <tr>
+            <th class="size om14"></th>
+            <th class="size mo14"></th>
+            <th><input class="size" type="text" id="ft14"></th>
+            <th><input class="size" type="text" id="mf14"></th>
+            <th><input class="size" type="text" id="fm14"></th>
+            <th><input class="size" type="text" id="ch14"></th>
+            <th> <select name="cdm" id="fois14" class="size">
+                <option value="" selected></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder=""></th>
+        </tr>
+        <tr>
+            <th class="size om15"></th>
+            <th class="size mo15"></th>
+            <th><input class="size" type="text" id="ft15"></th>
+            <th><input class="size" type="text" id="mf15"></th>
+            <th><input class="size" type="text" id="fm15"></th>
+            <th><input class="size" type="text" id="ch15"></th>
+            <th> <select name="cdm" id="fois15" class="size">
+                <option value="" selected></option>
+                <option value="0.5">0.5</option>
+                <option value="1">01</option>
+                <option value="1.5">01.5</option>
+                <option value="2">02</option>
+                <option value="2.5">02.5</option>
+                <option value="3">03</option>
+                <option value="3.5">03.5</option>
+                <option value="4">04</option>
+                <option value="4.5">04.5</option>
+                <option value="5">05</option>
+                <option value="5.5">05.5</option>
+                <option value="6">06</option>
+            </select> </th>
+            <th><input class="size" type="text" id="lE1" placeholder=""></th>
+        </tr>
+        <tr>
+            <th class="size om_total"></th>
+            <th class="size"></th>
+            <th class="size"></th>
+            <th class="size"></th>
+            <th class="size"></th>
+            <th class="size"></th>
+            <th class="size fois_total"></th>
+            <th class="size">المجموع</th>
+        </tr>
+    </table>
+    <table class="sp2">
+        <tr>
+            <th>
+                <button class="size" type="button" onclick="ok()">معدل</button>
+            </th>
+            <th class="size moy"></th>
+        </tr>
+    </table>
+    <script src="bulletin.js"></script>
+</body>
+</html>

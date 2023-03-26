@@ -1,0 +1,42 @@
+html{
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);;
+}
+table{
+    margin: auto;
+}
+.sp1{
+    margin-top: 70px;
+}
+.size{
+    width: 6.25rem;
+    text-align: center;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+}
+.moy{
+    background-color: #fff;
+    box-shadow: 0 -2px 50px #000;
+}
+.sp2{
+    border-spacing: 2rem;
+}
+@media screen and (min-height:500px) and (max-width:500px) {
+    .sp1{
+        margin-top: 200px;
+    }
+}
+@media screen and (min-height:600px)  and (max-width:500px){
+    .sp1{
+        margin-top: 300px;
+    }
+}
+@media screen and (min-height:700px)  and (max-width:500px){
+    .sp1{
+        margin-top: 400px;
+    }
+}
+@media screen and (min-height:800px)  and (max-width:500px){
+    .sp1{
+        margin-top: 500px;
+    }
+}
