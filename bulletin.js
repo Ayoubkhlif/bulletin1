@@ -1,30 +1,44 @@
 let x = 0
-function verif(ch){
-    {x}globalThis  
-    try{
-        if(ch!==""){
-            if(Number(ch)>=0 && Number(ch)<=20) return Number(ch);
-            else{
-                x += 1
-                return -0
-            }
-        }
-        else return -0;
-    }
-    catch{
-        x += 1;
-        return -0;
-    }
-}
 function combien(l, a){
     let s = 0;
-    for(const i of l){
-        if(Object.is(i, a)) s++;
+    for(let i = 0 ; i < l.length ; i++ ){
+        if(Object.is(l[i], a)) s++;
     }
     return s
 }
 function my_round(x, y){
     return Math.round(x*(10**y))/(10**y);
+}
+function verif(ch){
+    {x}globalThis 
+    if (combien(ch, "/") === 0){
+        try{
+            if(ch!==""){
+                if(Number(ch)>=0 && Number(ch)<=20) return Number(ch);
+                else{
+                    x += 1;
+                    return -0;
+                }
+            }
+            else return -0;
+        }
+        catch{
+            x += 1;
+            return -0;
+        }
+    }else{
+        let mo = 0;
+        let com = combien(ch, "/");
+        console.log(com, "hi");
+        for(let i = 0 ; i < com ; i++){
+            mo += verif(ch.substring(0, ch.indexOf("/")));
+            console.log(ch, "d");
+            ch = ch.substr(ch.indexOf("/") + 1);
+            console.log(ch, "f");
+        }
+        mo += verif(ch);
+        return my_round(mo/(com + 1), 2);
+    }
 }
 function calcul_moyen(a, b, c, d){
     l = [a, b, c, d, d];
